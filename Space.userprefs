@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ui\StartMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\ui\HudUi.cs">
     <Files>
-      <File FileName="Assets\scripts\util\Screen.cs" Line="15" Column="4" />
-      <File FileName="Assets\scripts\ui\OptionsView.cs" Line="12" Column="57" />
-      <File FileName="Assets\scripts\ui\Templates.cs" Line="6" Column="38" />
-      <File FileName="Assets\scripts\ui\StartMenu.cs" Line="19" Column="28" />
+      <File FileName="Assets\scripts\util\Screen.cs" Line="15" Column="1" />
+      <File FileName="Assets\scripts\ui\OptionsView.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ui\Templates.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ui\StartMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ui\HudUi.cs" Line="17" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

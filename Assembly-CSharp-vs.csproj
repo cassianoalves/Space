@@ -46,11 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameStateMonitor.cs" />
-     <Compile Include="Assets\HudUi.cs" />
-     <Compile Include="Assets\State.cs" />
+     <Compile Include="Assets\scripts\GameStateMonitor.cs" />
+     <Compile Include="Assets\scripts\State.cs" />
      <Compile Include="Assets\scripts\i18n\Message.cs" />
      <Compile Include="Assets\scripts\ship\Ship.cs" />
+     <Compile Include="Assets\scripts\ui\HudUi.cs" />
      <Compile Include="Assets\scripts\ui\OptionsView.cs" />
      <Compile Include="Assets\scripts\ui\StartMenu.cs" />
      <Compile Include="Assets\scripts\ui\Templates.cs" />

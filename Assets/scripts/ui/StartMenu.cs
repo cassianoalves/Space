@@ -7,7 +7,7 @@ public class StartMenu : MonoBehaviour {
 		GUI.Label (new Rect (10, 10, 100, 20), Screen.width + "x" + Screen.height);
 
 		GUILayout.BeginArea (util.Screen.newScreenRelativeRect(0.2, 0.25, 0.6, 0.5));
-		GUILayoutOption[] options = new GUILayoutOption[1];// = new ArrayList<GUILayoutOption> ();
+		GUILayoutOption[] options = new GUILayoutOption[1];
 		options[0] = GUILayout.ExpandHeight(true);
 
 		if(GUILayout.Button (i18n.Message.get("Play"), options)) startGame();
@@ -17,7 +17,7 @@ public class StartMenu : MonoBehaviour {
 	}
 
 	private void startGame() {
-
+		Application.LoadLevel ("sandbox"); // TODO: Open first level or last reached one
 	}
 
 	private void optionsScreen() {

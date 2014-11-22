@@ -13,8 +13,6 @@ namespace util {
 			iw = (int)(UnityEngine.Screen.width * w);
 			ih = (int)(UnityEngine.Screen.height * h);
 
-			Debug.Log ("> " + ix + "," + iy + "," + iw + "," + ih);
-
 			return new UnityEngine.Rect (ix, iy, iw, ih);
 		}
 
